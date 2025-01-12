@@ -17,8 +17,8 @@ This is a real-time chat application built with Django for the backend and React
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-repo/chat-app.git
-    cd chat-app
+    git clone https://github.com/mohamedibourki/chat-django.git
+    cd chat-django
     ```
 
 2. Start the application using Docker Compose:
