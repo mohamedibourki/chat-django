@@ -18,3 +18,13 @@ All notable changes to this project will be documented in this file.
 
 ### Other
 - Organized project structure.
+
+## [1.2.0] - 2025-01-15
+### Added
+- User authentication with registration and login pages.
+- Chat functionality to support sender and receiver.
+- WebSocket reconnection handling.
+
+### Updated
+- Improved chat UI with Tailwind CSS.
+- Enhanced WebSocket consumer to handle messages between specific users.

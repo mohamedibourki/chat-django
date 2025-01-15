@@ -28,6 +28,11 @@ This is a real-time chat application built with Django for the backend and React
 
 3. Access the frontend at `http://localhost:5173` and the backend at `http://localhost:8000`.
 
+4. for running backend please run this command:
+    ```sh
+    daphne -p 8000 app.asgi:application
+    ```
+
 ## Contributing
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
