@@ -1,40 +1,21 @@
-# Real-Time Chat Application
+# Virtual Document Sample
 
-This is a real-time chat application built with Django for the backend and React with TypeScript for the frontend.
+This is a sample extension that shows how to add virtual documents to the editor.
 
-## Features
-- Real-time messaging with WebSockets
-- User authentication and management
-- Responsive design with Tailwind CSS
+![cowsay](https://github.com/Microsoft/vscode-extension-samples/blob/main/virtual-document-sample/cowsay.gif)
 
-## Getting Started
 
-### Prerequisites
-- Docker
-- Docker Compose
+## VS Code API
 
-### Running the Application
+### `vscode` module
 
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/mohamedibourki/chat-django.git
-    cd chat-django
-    ```
+- [`workspace.registerTextDocumentContentProvider`](https://code.visualstudio.com/api/references/vscode-api#workspace.registerTextDocumentContentProvider)
+- [`commands.registerCommand`](https://code.visualstudio.com/api/references/vscode-api#commands.registerCommand)
+- [`window.showInputBox`](https://code.visualstudio.com/api/references/vscode-api#window.showInputBox)
 
-2. Start the application using Docker Compose:
-    ```sh
-    docker-compose up
-    ```
+## Running the Sample
 
-3. Access the frontend at `http://localhost:5173` and the backend at `http://localhost:8000`.
-
-4. for running backend please run this command:
-    ```sh
-    daphne -p 8000 app.asgi:application
-    ```
-
-## Contributing
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Run `npm install` in terminal to install dependencies
+- Run the `Launch Extension` target in the Debug View. This will:
+	- Start a task `npm: watch` to compile the code
+	- Run the extension in a new VS Code window
