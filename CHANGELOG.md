@@ -28,3 +28,11 @@ All notable changes to this project will be documented in this file.
 ### Updated
 - Improved chat UI with Tailwind CSS.
 - Enhanced WebSocket consumer to handle messages between specific users.
+
+## [1.3.0] - 2025-01-20
+### Added
+- Login and registration.
+- Chat functionality.
+- Shadcn ui interface.
+- Responsive design.
+- Dark mode.
